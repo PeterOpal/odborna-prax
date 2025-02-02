@@ -1,9 +1,83 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="sk">
   <head>
-    <meta http-equiv="refresh" content="10;url=https://google.com" />
+    <meta http-equiv="refresh" content="1;url=https://drive.google.com/file/d/1yA0GGAaCY5noBZc3BbDrWeu11thsyDZE/view?usp=sharing" />
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odborná prax | Peter Opál - presmerovanie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #0073e6, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+      
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            background: #ff7b00;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #e66900;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            p { font-size: 1rem; }
+            .btn { font-size: 1rem; padding: 10px 20px; }
+        }
+    </style>
+</head>
   </head>
   <body>
-    ODBORNA PRAX - PRESMEROVANIE
+    <div class="container">
+        <h1>Odborná prax - Presmerovanie</h1>
+        <p>Čakajte chvíľu, práve vás presmerovávame...</p>
+        <a href="https://example.com" class="btn">Pokračovať</a>
+    </div>
   </body>
 </html>
